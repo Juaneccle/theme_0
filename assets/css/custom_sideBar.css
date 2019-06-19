@@ -1,0 +1,60 @@
+.contenedor-sideBar{
+  background-color: #4e4e4e;
+  width: 100%;
+  height: 500px;
+}
+
+.organizador-sideBar{
+  padding-left: 100px;
+  padding-top: 200px;
+}
+
+.contenedor-sideBar ul li{
+  list-style-type: none;
+}
+
+.separador-de-contenido{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: white;
+  width: 100%;
+  height: 5px;
+}
+
+.btn btn-primary mb-2{
+  width: 50px !important;
+}
+.mb-2{
+  margin-left: 85px;
+  margin-right: 5px !important;
+  margin-bottom: 0px !important;
+  border-width: 2px;
+  color: white;
+  border-color: white;
+  background-color: #fff0;
+}
+
+.form-inline .form-control{
+  width: 150px;
+}
+
+.mb-2:hover{
+  background-color: #fff0 !important;
+  color: #82e997 !important;
+  border-color: #82e997 !important;
+
+}
+
+
+/*
+.btn-primary{
+  background-color: #82e997 !important;
+  color: black !important;
+  border-color: #82e997 !important;
+}
+*/
+
+/*normal*/
+
+
+/*Hover*/
