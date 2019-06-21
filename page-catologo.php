@@ -6,7 +6,15 @@
 
 <?php get_header();  ?>
 
-<nav class="sideBar-categorias fixed-top">
+<!-- <div class="container container-titulo-noticia"> -->
+<div class="container">
+  <div class="row container-titulo-noticia">
+    <h2 class="titulo-pag-noticia"><?php the_title(); ?></h2>
+  </div>
+</div>
+<!-- </div> -->
+
+<!-- <nav class="sideBar-categorias fixed-top">
   <div class="cont-side-cat">
     <div class="separador-side-cat"></div>
     <p class="hvr-forward texto-side-cat">Nevos</p>
@@ -19,7 +27,7 @@
     <p class="hvr-forward texto-side-cat">Comedia</p>
     <p class="hvr-forward texto-side-cat">Romance</p>
   </div>
-</nav>
+</nav> -->
 
 <div class="container">
   <div class="row">

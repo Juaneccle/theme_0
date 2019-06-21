@@ -1,16 +1,46 @@
+
+
 <div class="espacio"></div>
-<div class="menu-sidebar">
-<?php wp_nav_menu(array(
-  'theme_location' => 'Menu secundario Sidebar',
-  'container' => 'div',
-  'container_class' => 'collapse navbar-collapse',
-  'container_id' => 'navbarTogglerDemo01',
-  'items_wrap' => '<ul class="navbar-nav mr-auto mt-2 mt-lg-0">%3$s</ul>',
-  'menu_class' => 'nav-item'
-) ); ?>
+<div class="diagramacion-sideBar">
+  <div class="menu-sidebar">
+    <?php wp_nav_menu(array(
+      'theme_location' => 'Menu secundario Sidebar',
+      'container' => 'div',
+      'container_class' => 'collapse navbar-collapse',
+      'container_id' => 'navbarTogglerDemo01',
+      'items_wrap' => '<ul class="navbar-nav mr-auto mt-2 mt-lg-0">%3$s</ul>',
+      'menu_class' => 'nav-item nav-item-noticias'
+    ) ); ?>
+  </div>
 </div>
-<div class="contenedor-sideBar">
-  <div class="lista">
+
+<div class="diagramacion-sideBar-menu">
+  <div class="contenedor-form-sideBar">
+    <p class="descripcion-form-noticias">Aquí puedes buscar cualquier pelicula, directores o categoría que desees.</p>
+    <form class="form-inline">
+      <div class="form-group mx-sm-3 mb-2">
+        <button type="submit" class="btn btn-primary mb-2 botones-form-noticia">Buscar</button>
+        <label for="inputPassword2" class="sr-only">Password</label>
+        <input type="password" class="form-control" id="inputPassword2" placeholder="¿que buscas?">
+      </div>
+    </form>
+  </div>
+</div>
+
+<div class="diagramacion-sideBar-menu">
+  <div class="contenedor-form-sideBar">
+    <p class="descripcion-form-noticias">Aquí puedes buscar cualquier pelicula, directores o categoría que desees.</p>
+    <form class="form-inline">
+      <div class="form-group mx-sm-3 mb-2">
+        <button type="submit" class="btn btn-primary mb-2 botones-form-noticia">Buscar</button>
+        <label for="inputPassword2" class="sr-only">Password</label>
+        <input type="password" class="form-control" id="inputPassword2" placeholder="¿que buscas?">
+      </div>
+    </form>
+  </div>
+</div>
+<!-- <div class="contenedor-sideBar">
+   <div class="lista">
     <ul class="organizador-sideBar">
       <div class="separador-de-contenido"></div>
       <li>
@@ -42,4 +72,4 @@
       <input type="password" class="form-control" id="inputPassword2" placeholder="¿que buscas?">
     </div>
   </form>
-</div>
+</div> -->

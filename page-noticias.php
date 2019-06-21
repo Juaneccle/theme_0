@@ -8,11 +8,11 @@ Template Name: template noticias
 <?php
   get_header();
  ?>
-
+  <div class="container container-titulo-noticia">
     <div class="row">
       <h2 class="titulo-pag-noticia"><?php the_title(); ?></h2>
-
     </div>
+  </div>
 
   <div class="container">
     <?php
@@ -31,6 +31,9 @@ Template Name: template noticias
           $noticias->the_post();?>
 
           <div class="row">
+            <div class="col-md-8">
+
+
             <div class="card text-center card-noticias hvr-underline-from-center">
               <div class="card-header">
               </div>
@@ -56,6 +59,11 @@ Template Name: template noticias
 
               </div>
             </div>
+            </div>
+            <div class="col-md-4">
+              <?php get_sidebar(); ?>
+            </div>
+
           </div>
 
           <?php

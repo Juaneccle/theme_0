@@ -487,9 +487,15 @@ Funciones:
 /*//////////////////////// Noticias //////////////////////*/
 /*////////////////////////////////////////////////////////*/
 
-.titulo-pag-noticia{
-  margin: 150px;
+.container-titulo-noticia{
+  margin-top: 150px;
+  border-bottom: solid 4px #82e997;
 }
+
+.titulo-pag-noticia{
+  color: white;
+}
+
 /*
 .titulo-carta-noticia{
   color:white;
@@ -555,6 +561,64 @@ Funciones:
   background-size: cover;
   background-repeat: no-repeat; */
 
+/*//////////////////////// SIDEBAR /////////////////////////*/
+
+.menu-sidebar ul li a{
+  font-size: 16px;
+  font-family: 'Hind-Regular';
+  color: #b1fdc0;
+  float: none;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 10px;
+  border: solid 2px #a7a7a7;
+  background: #424242;
+}
+
+.diagramacion-sideBar{
+  padding-left:50px;
+  margin-bottom: 50px;
+}
+
+.diagramacion-sideBar-menu{
+  padding-left:50px;
+
+  /* margin-bottom: 50px; */
+}
+
+.contenedor-form-sideBar{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  background: #656565;
+}
+
+.menu-sidebar{
+  padding-top: 15px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  background: #656565;
+}
+
+.menu-sidebar ul li{
+  font-family: 'Hind-Regular';
+  margin-bottom: 20px;
+  margin-left: 0px;
+
+}
+
+.descripcion-form-noticias{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.botones-form-noticia{
+ margin-left: 5px !important;
+}
+
+.nav-item-noticias ul li a{
+  margin-left: -10px !important;
+}
 
 /*//////////////////////// HOVERS //////////////////////////*/
 
